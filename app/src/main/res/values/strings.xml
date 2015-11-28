@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Awesome Player</string>
+    <string name="action_media_player">Player Control</string>
+    <string name="buffering">Buffering (%d kbps)…</string>
+</resources>

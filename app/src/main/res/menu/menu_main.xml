@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.github.filipebezerra.awesomeplayer.MainActivity"
+    >
+    <item
+        android:id="@+id/action_media_player"
+        android:title="@string/action_media_player"
+        android:icon="@drawable/ic_hourglass_empty"
+        app:showAsAction="ifRoom"
+        />
+</menu>
