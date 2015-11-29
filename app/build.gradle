@@ -1,5 +1,10 @@
 apply plugin: 'com.android.application'
 
+if (project.hasProperty("FbsRelease2.signing")
+        && new File(project.property("FbsRelease2.signing") + ".gradle").exists()) {
+    apply from: project.property("FbsRelease2.signing") + ".gradle";
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
